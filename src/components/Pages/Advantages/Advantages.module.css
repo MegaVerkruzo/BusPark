@@ -1,0 +1,13 @@
+.content {
+    background: linear-gradient(130.41deg, rgba(227, 227, 227, 0.54) 27.59%, rgba(137, 137, 137, 0) 85.64%);
+}
+
+.content__title {
+    padding: 41px 0 0 0;
+}
+
+.content__row_cards {
+    margin: 50px 95px;
+    display: flex;
+    justify-content: space-between;
+}
