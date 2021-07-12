@@ -11,15 +11,15 @@ const HomePage = () => {
             <div>
                 <img className={classes.content__main_image} src={bus}/>
                 <div className={classes.content__main}>
-                    <div className={`text text_title`}>
+                    <div className={`${classes.content__main_text_title}`}>
                         Комфортно и безопасно
                         по межгороду
                     </div>
-                    <div className={`text text_info`}>
+                    <div className={`${classes.content__main_text_info}`}>
                         Мы осуществляем комфортабельные автобусные перевозки на заказ.В Вашем распоряжении целый парк современных автобусов и микроавтобусов в Новосибирске.
                     </div>
-                    <div> {/*Кнопка*/}
-
+                    <div className={classes.content__main_button}> {/*Кнопка*/}
+                        Рассчитать маршрут
                     </div>
                 </div>
             </div>
