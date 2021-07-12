@@ -1,0 +1,14 @@
+.content {
+    width: 364px;
+    height: 464px;
+    background: linear-gradient(171.83deg, #C5C5C5 8.53%, rgba(231, 231, 231, 0.3) 93.72%);
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    box-sizing: border-box;
+}
+
+.content__buttons {
+    width: 133px;
+    height: 28px;
+
+
+}
