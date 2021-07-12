@@ -12,9 +12,8 @@ import Contacts from "./components/Pages/Contacts/Contacts";
 function App() {
     return (
         <>
-            <NavigationBar />
+            <HomePage />
             <Switch>
-                <Route exact path='/' render={() => <HomePage />}/>
                 <Route path='/auto_park' render={() => <AutoPark />}/>
                 <Route path='/advantages' render={() => <Advantages />}/>
                 <Route path='/about_us' render={() => <AboutUs />}/>

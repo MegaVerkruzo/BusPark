@@ -1,9 +1,11 @@
 import React from 'react'
 import classes from './HomePage.module.css'
+import NavigationBar from "../../NavigationBar/NavigationBar";
 
 const HomePage = () => {
     return (
-        <div>
+        <div className={classes.content}>
+            <NavigationBar />
             HomePage
         </div>
     )
