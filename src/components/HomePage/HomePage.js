@@ -8,9 +8,9 @@ const HomePage = () => {
     return (
         <div className={classes.content}>
             <NavigationBar />
-            <div className={classes.content__main}>
-                <img src={bus}/>
-                <div>
+            <div>
+                <img className={classes.content__main_image} src={bus}/>
+                <div className={classes.content__main}>
                     <div className={`text text_title`}>
                         Комфортно и безопасно
                         по межгороду

@@ -16,7 +16,7 @@ const NavigationBar = () => {
             <NavLink className={classes.content__text} to='/partners'>Партнеры</NavLink>
             <NavLink className={classes.content__text} to='/contacts'>Контакты</NavLink>
             <div className={classes.content__contact}>
-                <div>
+                <div className={classes.content__contact_icon}>
                     <img src={icon_phone}/>
                 </div>
                 <div>

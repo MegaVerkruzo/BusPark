@@ -8,7 +8,12 @@
 
 .content__contact {
     display: flex;
+    color: white;
     align-items: center;
+}
+
+.content__contact_icon {
+    margin: 5px 3px 0 0;
 }
 
 .content__text {
