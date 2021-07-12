@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import {Switch, Route, Redirect} from 'react-router-dom'
-import HomePage from "./components/Pages/HomePage/HomePage";
+import HomePage from "./components/HomePage/HomePage";
 import AutoPark from "./components/Pages/AutoPark/AutoPark";
 import Advantages from "./components/Pages/Advantages/Advantages";
 import AboutUs from "./components/Pages/AboutUs/AboutUs";

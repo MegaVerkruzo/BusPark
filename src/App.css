@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+.text {
+  font-family: Montserrat;
+  color: #FFFFFF;
+}
+
+.text_title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.text_info {
+  font-size: 13px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
