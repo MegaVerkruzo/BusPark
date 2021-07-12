@@ -6,18 +6,18 @@ import './../../../../App.css'
 const Bus = () => {
     return (
         <div className={`${classes.content}`}>
-            <img src={bus}/>
-            <div>
+            <img className={classes.content__image} src={bus}/>
+            <div className={classes.content__title}>
                 Микроавтобусы рассчитаные на 23-24 места
             </div>
-            <div>
+            <div className={classes.content__cost}>
                 <div>Стоимость:</div>
-                <div>
-                    <div>1 час:  1200 руб.</div>
-                    <div>1 км:   35 руб.</div>
+                <div className={classes.content__cost_info}>
+                    <div>1 час:  <strong>1200 руб.</strong></div>
+                    <div>1 км:   <strong>35 руб.</strong></div>
                 </div>
             </div>
-            <div >
+            <div className={classes.content__main_button}>
                 <div className={`button ${classes.content__buttons}`}>
                     Рассчитать
                 </div>
