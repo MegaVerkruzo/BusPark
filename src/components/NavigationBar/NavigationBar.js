@@ -18,6 +18,12 @@ const NavigationBar = () => {
             </div>
             <div>
             {/*    Номер телефона*/}
+                <div>
+                    <img src={}/>
+                </div>
+                <div>
+                    + 7 (913)700-67-27
+                </div>
             </div>
         </div>
     )
