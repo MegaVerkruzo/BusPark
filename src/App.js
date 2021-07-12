@@ -1,25 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import NavigationBar from "./components/NavigationBar/NavigationBar";
+import {Switch, Route, Redirect} from 'react-router-dom'
+import HomePage from "./components/Pages/HomePage/HomePage";
+import AutoPark from "./components/Pages/AutoPark/AutoPark";
+import Advantages from "./components/Pages/Advantages/Advantages";
+import AboutUs from "./components/Pages/AboutUs/AboutUs";
+import Partners from "./components/Pages/Partners/Partners";
+import Contacts from "./components/Pages/Contacts/Contacts";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <NavigationBar />
+            <Switch>
+                <Route exact path='/' render={() => <HomePage />}/>
+                <Route path='/auto_park' render={() => <AutoPark />}/>
+                <Route path='/advantages' render={() => <Advantages />}/>
+                <Route path='/about_us' render={() => <AboutUs />}/>
+                <Route path='/partners' render={() => <Partners />}/>
+                <Route path='/contacts' render={() => <Contacts />}/>
+            </Switch>
+        </>
+    );
 }
 
 export default App;
