@@ -1,0 +1,32 @@
+.content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 0 92px;
+}
+
+.content__image {
+    margin: 29px     0 0 92px;
+    box-shadow: -20px 15px 0 grey;
+}
+
+.content__text {
+    margin-left: 52px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content__text_element {
+
+    padding-bottom: 32px;
+}
+
+.content__button {
+    width: 156px;
+    height: 37px;
+
+    font-size: 18px;
+    line-height: 22px;
+}
