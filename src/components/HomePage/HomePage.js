@@ -8,7 +8,7 @@ const HomePage = () => {
     return (
         <div className={classes.content}>
             <NavigationBar />
-            <div>
+            <div className={`${classes.content_position}`}>
                 <img className={classes.content__main_image} src={bus}/>
                 <div className={classes.content__main}>
                     <div className={`${classes.content__main_text_title}`}>
