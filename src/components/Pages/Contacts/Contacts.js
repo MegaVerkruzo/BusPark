@@ -14,12 +14,16 @@ const Contacts = () => {
                     По всем вопросам <br /> mail@neobus.ru
                 </div>
                 <div className={`${classes.content__block_text}`}>
-                    <div>
-                        <Information image={icon_address} title='Адрес' explain='1105 г.Москва ,ул.Народная, д. 11 оф 5 дом 4 переулок 7'/>
+                    <div className={`${classes.content__block_address}`}>
+                        <Information image={icon_address} title='Адрес' explain={`1105 г.Москва ,ул.Народная, д. 11 оф 5 дом 4 переулок 7`}/>
+                    </div>
+                    <div className={`${classes.content__block_watch}`}>
                         <Information image={icon_number} title='7 (913) 700 -67-27' explain='с 9:00 до 18:00'/>
                     </div>
-                    <div>
+                    <div className={`${classes.content__block_number}`}>
                         <Information image={icon_watch} title='График работы' explain='пн-вс (9:00 - 22:00)'/>
+                    </div>
+                    <div className={`${<classes className="content__block_phone"></classes>}`}>
                         <Information image={icon_phone} title='7 (913) 700 -67-27' explain='с 9:00 до 18:00'/>
                     </div>
                 </div>

@@ -10,7 +10,7 @@ const Information = (props) => {
                 <div className={`text_pred_title`}>
                     {props.title}
                 </div>
-                <div className={`text_info`}>
+                <div className={`text_info ${classes.content__text_info}`}>
                     {props.explain}
                 </div>
             </div>

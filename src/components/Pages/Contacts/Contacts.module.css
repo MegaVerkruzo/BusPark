@@ -17,6 +17,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .content__block_title {
@@ -27,13 +28,35 @@
 
 .content__block_text {
     margin-left: 72px;
+    margin-down: 0;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "a w"
+    "n p";
+
+}
+
+.content__block_address {
+    gird-area: a;
+}
+
+.content__block_watch {
+    grid-area: w;
+}
+
+.content__block_number {
+    grid-area: n;
+}
+
+.content__block_phone {
+    grid-area: p;
 }
 
 .content__button {
+    margin-top: 25px;
+    margin-left: 73px;
+
     width: 206px;
     height: 37px;
 
