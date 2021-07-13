@@ -8,6 +8,7 @@ import Advantages from "./components/Pages/Advantages/Advantages";
 import AboutUs from "./components/Pages/AboutUs/AboutUs";
 import Partners from "./components/Pages/Partners/Partners";
 import Contacts from "./components/Pages/Contacts/Contacts";
+import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                 <Route path='/partners' render={() => <Partners />}/>
                 <Route path='/contacts' render={() => <Contacts />}/>
             </Switch>
+            <Footer />
         </>
     );
 }

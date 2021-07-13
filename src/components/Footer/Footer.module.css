@@ -1,0 +1,21 @@
+.content {
+    height: 374px;
+
+    background: linear-gradient(267.1deg, #242424 -5.48%, rgba(2, 2, 2, 0.65) 52.41%);
+}
+
+.content__description {
+
+}
+
+.content__info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.content__info_useful {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
