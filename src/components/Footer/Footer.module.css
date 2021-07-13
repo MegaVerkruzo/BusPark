@@ -12,15 +12,15 @@
 }
 
 .content__description {
-    margin-top: 60px;
-    margin-bottom: 70px;
+    margin-top: 40px;
+    margin-bottom: 95px;
 }
 
 .content__info {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin-top: 64px;
+    margin-top: 50px;
 }
 
 .content__info_useful {

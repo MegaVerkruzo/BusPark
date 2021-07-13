@@ -4,6 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
+import firebase from 'firebase'
+
+firebase.initializeApp({
+    apiKey: "AIzaSyDbrrRYcZcFwuz2VVygeYYd9IPS-gno4JY",
+    authDomain: "busproject-689ba.firebaseapp.com",
+    projectId: "busproject-689ba",
+    storageBucket: "busproject-689ba.appspot.com",
+    messagingSenderId: "125300238601",
+    appId: "1:125300238601:web:48d5b3eb6de3bf31bfcbd8",
+    measurementId: "G-RNX4F55KHW"
+})
 
 ReactDOM.render(
     <BrowserRouter>
