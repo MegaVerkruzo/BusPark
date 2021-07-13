@@ -1,9 +1,10 @@
 import React from 'react'
+import icon from './../../../../utils/images/icon_partners.png'
 
 const Avatar = () => {
     return (
         <div>
-            Avatar
+            <img src={icon}/>
         </div>
     )
 }

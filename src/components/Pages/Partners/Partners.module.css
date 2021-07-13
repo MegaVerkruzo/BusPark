@@ -1,0 +1,7 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 29px 144px;
+    background: linear-gradient(130.41deg, rgba(227, 227, 227, 0.54) 27.59%, rgba(137, 137, 137, 0) 85.64%);;
+}
